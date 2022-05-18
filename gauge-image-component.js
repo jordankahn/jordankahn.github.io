@@ -10,7 +10,7 @@
     <img src="https://svgur.com/i/hW0.svg">
     `;
 
-    customElements.define('com-sap-sample-gauge1', class Gauge1 extends HTMLElement {
+    customElements.define('com-sap-sample-gauge', class Gauge extends HTMLElement {
 
 
 		constructor() {
