@@ -1,7 +1,7 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
-    <img src="https://i.ibb.co/Tr2PfBc/test-gauge.png">
+    <img src="https://svgur.com/i/hW0.svg">
     `;
 
     customElements.define('com-sap-sample-gauge', class Gauge extends HTMLElement {
@@ -14,7 +14,7 @@
             this._firstConnection = false;
             this._tagContainer;
             this._tagType = "img";
-            this._tagSource = "https://i.ibb.co/Tr2PfBc/test-gauge.png";
+            this._tagSource = "https://svgur.com/i/hW0.svg";
 		}
 
         //Fired when the widget is added to the html DOM of the page
