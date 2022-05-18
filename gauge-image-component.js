@@ -1,6 +1,12 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
+    <style>
+        img {
+            width: 200px;
+            height: 100px;
+        }
+    </style>
     <img src="https://svgur.com/i/hW0.svg">
     `;
 
