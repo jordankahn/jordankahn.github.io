@@ -45,4 +45,4 @@ const dataSource = {
     }).render();
   });
   
-	customElements.define("com-sap-guage", Guage);
+	customElements.define("com-sap-gauge", Gauge);
